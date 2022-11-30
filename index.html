@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Web Development</title>
+    </head>
+    <body>
+        <center>
+            <h1><u>Web Development</u></h1>
+        </center>
+        <!-- Heading  -->
+        <h1><u><b>Heading &lth1&gt</b></u></h1>
+        There are different levels in heading
+        <center>
+            <h1>Heading level 1 &lth1&gt</h1>
+            <h2>Heading level 2 &lth2&gt</h2>
+            <h3>Heading level 3 &lth3&gt</h3>
+            <h4>Heading level 4 &lth4&gt</h4>
+            <h5>Heading level 5 &lth5&gt</h5>
+            <h6>Heading level 6 &lth6&gt</h6>
+        </center>
+        <br>
+        <hr size="4" noshade>
+
+        <!-- Break Line  -->
+        <h1><u><b>Break Line &ltbr&gt</b></u></h1>
+        "br" tag is used to break the lines
+        <hr size="4" noshade>
+
+        <!-- Horizontal Rule  -->
+        <h1><u><b>Horizontal rule &lthr&gt</b></u></h1>
+        <em><strong>
+                We created Horizontal rule using "hr" tag <br>
+            </strong></em>
+        It has 5 attributes.<br>
+        <ul>
+            <li>size</li>
+            <li>align</li>
+            <li>color</li>
+            <li>width</li>
+            <li>shade, noshade</li>
+        </ul>
+        <hr size="4" noshade>
+
+        <!-- List  -->
+        <h1><u><b>Ordered List &ltol&gt</b></u></h1>
+        <p>
+            To create Ordered lists in HTML, we use "ol" tag.
+            <br>
+            <strong>It has some attributes</strong>
+            <h3>Attributes</h3>
+            <ul>
+                <li><strong>reveresed: </strong>It specifies that the list's
+                    items are in reverse order</li>
+                <li><strong>start: </strong>it is used to define a starting
+                    number to start the list from</li>
+                <li><strong>type: </strong>It sets the numbering types
+                    <ol>
+                        <li>"a" for lowercase letters</li>
+                        <li>"A" for uppercase letters</li>
+                        <li>"i" for lowercase Roman numerals</li>
+                        <li>"I" for uppercase Roman numerals</li>
+                        <li>"1" for numbers</li>
+                    </ol>
+                </li>
+
+            </ul>
+        </p>
+        <h1><u><b>Unordered List &ltul&gt</b></u></h1>
+        <p>
+            To create Unordered lists in HTML, we use "ul" tag.
+            <br>
+            <strong>It has some attributes</strong>
+            <h3>Attributes</h3>
+            <ul>
+                <li><strong>compact: </strong>The list should be rendered in a
+                    compact style</li>
+                <li><strong>type: </strong>This attribute sets the bulltet style
+                    for the list
+                    <ol>
+                        <li>circle</li>
+                        <li>disk</li>
+                        <li>square</li>
+                    </ol>
+                </li>
+            </ul>
+        </p>
+
+        <!-- Host Images  -->
+        <hr size="4" noshade>
+        <h1><u><b>Image Insert &ltimg&gt</b></u></h1>
+        <p>
+            With this tag, we can insert image in out HTML file
+            <h3>Attributes</h3>
+            <ul>
+                <li><strong>src: </strong>The Image URL In this tag, there can
+                    be an address of an image. The address can be local address
+                    or web address</li>
+                <li><strong>width: </strong>The intrinsic width of the image in
+                    pixels. Must be an integer without a unit.</li>
+                <li><strong>heigth: </strong>The intrinsic height of the image,
+                    in pixels. Must be an integer without a unit.</li>
+                <li><strong>alt: </strong> Defines an alternative text
+                    description of the image</li>
+                <li><strong>border: </strong>The width of a border around the
+                    image. Can be used border in CSS properties</li>
+                <li>
+                    <strong>align: </strong>Aligns the image with its
+                    surrounding context
+                    <br><b>Allowed values: </b>
+                    <ol>
+                        <li><strong>top: </strong>Equivalent to vertical-align:
+                            top or vertical-align: text-top </li>
+                        <li><strong>middle: </strong>Equivalent to
+                            vertical-align: -moz-middle-with-baseline</li>
+                        <li><strong>bottom: </strong>The default, equivalent to
+                            vertical-align: unset or vertical-align: initial</li>
+                        <li><strong>left: </strong>Equivalent to float: left</li>
+                        <li><strong>right: </strong>Equivalent to float: right</li>
+                    </ol>
+                </li>
+                <li>
+                    <strong>decoding: </strong> Provides an image decoding hint
+                    to the browser. Allowed values:
+                    <ol>
+                        <li><strong>sync: </strong>Decode the image
+                            synchronously,
+                            for atomic presentation with other content.</li>
+                        <li><strong>async: </strong>Decode the image
+                            asynchronously, to reduce delay in presenting other
+                            content.</li>
+
+                    </ol>
+                </li>
+            </ul>
+        </p>
+
+        <!-- Anchor  -->
+        <hr size="4" noshade>
+        <h1><u><b>Anchor Element&lta&gt</b></u></h1>
+        <p>
+            The <strong>&lta&gt</strong> HTML element, with its <strong>href</strong>
+            attribute, creates a hyperlink
+            to web pages, files, email addresses, locations in the same page, or
+            anything else a URL can address
+        </p>
+        <h3>Attributes</h3>
+        <ul>
+            <li>
+                <strong>href: </strong>The URL that the hyperlink points to.
+                Links are not restricted to HTTP-based URLs--They can use any
+                URL scheme supported by browsers:
+                <ol>
+                    <li>Sections of page with fragment URLs</li>
+                    <li>Pieces of media files with media fragments</li>
+                    <li>Telephone numbers with <strong>tel:</strong> URLs</li>
+                    <li>Email addresses with <strong>mailto:</strong></li>
+                </ol>
+            </li>
+            <li><strong>ping: </strong> A space-separated list of URLs. When the
+                link is followed, the browser will send POST requests with the
+                body <i>PING</i> to the URLs. Typically for tracking</li>
+            <li><strong>type: </strong> Hints at the linked URL's format with a
+                <b>MIME type</b>. no built-in functionality</li>
+        </ul>
+        <hr size="4" noshade>
+        <!-- Table  -->
+        <h1><u><b>Table&lttable&gt</b></u></h1>
+        <p>
+            This tag is used to create table in HTML. It has various attributes
+        </p>
+        <h3>Attributes</h3>
+        <ul>
+            <li><strong>align</strong><ol>
+                    <li><strong>left: </strong>the table is displayed on the
+                        left side of the document</li>
+                    <li><strong>center: </strong>the table is displayed on the
+                        center of the document</li>
+                    <li><strong>left: </strong>the table is displayed on the
+                        right side of the document</li>
+                </ol>
+            </li>
+            <li><strong>bgcolor: </strong>The background color of the table.
+                It's a <i>6 digit hexadecimal RGB code, prefixed by a <b>#</b></i></li>
+            <li><strong>border: </strong>This integer attribute defines, in
+                pixels, the size of the frame surrounding the table.</li>
+            <li><strong>summery</strong>This attribute defines an alternative
+                text that summarizes the content of the table.</li>
+            <li><strong>cellspacing: </strong>This attribute do the size
+                adjustments of the space between two cells in a percentage value
+                or pixels. This attribute is applied both horizontally and
+                vertically</li>
+        </ul>
+
+        <!-- form  -->
+        <hr size="4" noshade>
+        <h1><u><b>Form Element &ltform&gt</b></u></h1>
+        <p>
+            This HTML element provides a document section which contain
+            interactive controls for submitting Information
+
+        </p>
+        <h3>Attributes</h3>
+        <ul>
+            <li><strong>name: </strong>The name of the form. The value must not
+                be the empty string, and must be unique among the form elements
+                in the forms collection that it is in.</li>
+            <li>
+                <strong>action: </strong>It does some action when the <i>submit</i>
+                key is pressed.
+                <strong>
+                    <br>
+                    e.g -</strong>&ltform action="index.html"&gt can take you
+                back to the <i>index.html</i> page of your website, &ltform
+                action="mailto:(email_address)"&gt can take you to the email
+                after pressing the submit button.
+            </li>
+            <li>
+                <strong>enctype: </strong> If the value of the method attribute
+                is <i>post</i>, <i>enctype</i> is the MIME (<strong>Multipurpose
+                    Internet Mail Extensions</strong>) type of the form
+                submission.
+                <br>
+                <u><i>Types of enctype</i>:</u>
+                <ol>
+                    <li><strong>application/x-www-form-urlencoded: </strong> It
+                        is the default value</li>
+                    <li><strong>text/plain: </strong> It prints the input values
+                        as plain text.</li>
+                    <li><strong>multipart/form-date: </strong> Use this if the
+                        form contains &ltinput&gt elements with the <strong>type=file</strong></li>
+                </ol>
+            </li>
+        </ul>
+        <h3>Methods</h3>
+        <p>
+            <ol>
+                <li><strong>&ltlabel&gt:</strong> It is used to print some text.</li>
+                <li>
+                    <strong>&ltinput&gt:</strong>
+                    This tag is used to take input from the user.
+                    <p>
+                        <h4><u>&ltinput&gt attributes: </u></h4>
+                        <ul>
+                            <li>
+                                <strong>type:</strong>
+                                <br>
+                                <i>Different types</i>
+                                <ul>
+                                    <li><strong>text: </strong> This attribute
+                                        is used inside label to take text
+                                        inputs.</li>
+                                    <li><strong>email: </strong> This attribute
+                                        is used to take input email addresses</li>
+                                    <li><strong>submit: </strong> Using this
+                                        attribute a button appears. With it we
+                                        can perform submit or whatever task we
+                                        program.</li>
+                                    <li><strong>password: </strong> With this
+                                        tag we can input password. This tag
+                                        takes a masked input to avoid the
+                                        password get leaked.</li>
+                                    <li><strong>checkbox: </strong>This gives us
+                                        a <i>checkbox</i> to check it.</li>
+                                    <li><strong>radio: </strong>This gives us a
+                                        radio button to select some option.</li>
+                                    <li><strong>color: </strong>It takes colors
+                                        as input.</li>
+                                    <li><strong>date: </strong>This attribute
+                                        gives us a calender to enter any date.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </p>
+                </li>
+            </ol>
+        </p>
+        <hr size="4" noshade>
+
+    </body>
+</html>
