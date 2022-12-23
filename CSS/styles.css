@@ -1,23 +1,92 @@
-body {
-    background-color: #F5EBE0;
+body{
+   
+    text-align: center;
+    /* font-family: font stacks separated by commas. It is used as backup if the first priority font is failed to render then then one will. */
+    /* If the font is not availavble into the system by chance, then we use font embedding. For this we can use google fonts and link it in the HTML file  */
+    font-family: 'Chivo Mono', monospace;
+    /* font-size: 200%; */
 }
-hr {
-    /* background-color: #6D67E4; */
-    height: 2px;
-    border: 0;
-    border-top: 4px dotted;
-    border-color: #2B3A55;
-    width: 90%;
+hr{
+    margin: 0;
+    color: #66BFBF;
 }
 h1 {
-    color: #2D033B;
+    /* margin-top: 50px; */
+   /* width: 40%; /*By using only this code resets the alignment for this ('h1') tag. So we have to use additional methods */ 
+    /* margin: top right bottom left; Clockwise orientation */
+    /* auto sets the margin automatically  */
+    margin: 50 auto 0 auto; 
+    font-family: 'Sacramento', cursive;
+    /* font-size: 90px; */
+    /* Instead we can use percentage to determine font size. It will make the size dynamic which can change with the zoom*/
+    font-size: 5.625rem;
+    color: #66BFBF;
+    /* rem means root em. That means ignore all the parent declarations and use what is given */
+    /* We can also use em for dynamic size of the font  */
+    /* for h1 16px = 100% = 1em */
 }
 h2{
-    color: #810CA8;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
 }
 h3{
-    color: #C147E9;
+    font-family: 'Philosopher', sans-serif;    
+    color: #11999E;
 }
-h4 {
-    color: #22A39F;
+.top-container{
+    background-color: #E4F5F9;
+    padding-top: 100px;
+    /* width: 200px; */
+    /* border: solid 10px; */
+    /* margin: 10px; it pushed other elemets so that they not stick to each other */
+    /* display: inline-block; */
+    position: relative;
+   
+}
+.middle-container {
+background-color: antiquewhite;
+}
+.last-container {
+background-color: bisque;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+/* paragrapgh */
+.para-first{
+    font-weight: normal; /* 400 */
+}
+
+.top-cloud{
+    position: relative;
+    top:80px;
+    left:300px;
+}
+.bottom-cloud{
+    position: relative;
+    bottom: 350px;
+    right: 150px;
+} 
+
+/* Anchor tags footer */
+.btn{
+
+    color: #11999E;
+}
+.footer-link {
+    color: #11999E;
+}
+/* Images */
+.profile-img{
+    border-radius: 50%;
+    width: 300px;;
+    height:300px;
+}
+.skills-img{
+    border-radius: 50%;
+    width: 300px;;
+    height:300px;
 }
