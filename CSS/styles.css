@@ -1,61 +1,71 @@
 body{
    
     text-align: center;
-    /* font-family: font stacks separated by commas. It is used as backup if the first priority font is failed to render then then one will. */
-    /* If the font is not availavble into the system by chance, then we use font embedding. For this we can use google fonts and link it in the HTML file  */
     font-family: 'Chivo Mono', monospace;
-    /* font-size: 200%; */
+    color: #40514E;
     margin: 0;
 }
 hr{
-    margin: 0;
-    color: #66BFBF;
+    margin: 0 auto 0 auto;
+    border-style: none;
+    border-top: 6px dotted;
+    border-color: gray;
+    height: 2px;
+    width:25%;
 }
 h1 {
-    /* margin-top: 50px; */
-   /* width: 40%; /*By using only this code resets the alignment for this ('h1') tag. So we have to use additional methods */ 
-    /* margin: top right bottom left; Clockwise orientation */
-    /* auto sets the margin automatically  */
     margin: 50 auto 0 auto; 
     font-family: 'Sacramento', cursive;
-    /* font-size: 90px; */
-    /* Instead we can use percentage to determine font size. It will make the size dynamic which can change with the zoom*/
     font-size: 5.625rem;
     color: #66BFBF;
-    /* rem means root em. That means ignore all the parent declarations and use what is given */
-    /* We can also use em for dynamic size of the font  */
-    /* for h1 16px = 100% = 1em */
 }
 h2{
     font-family: 'Philosopher', sans-serif;
     font-size: 2.5rem;
     color: #66BFBF;
+    padding-bottom: 10px;
 }
 h3{
     font-family: 'Philosopher', sans-serif;    
     color: #11999E;
 }
+
+a{
+    color: #11999E;
+    font-family:'Monserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+
+p{
+    line-height: 2;
+}
 .top-container{
     background-color: #E4F5F9;
     padding-top: 100px;
-    /* width: 200px; */
-    /* border: solid 10px; */
-    /* margin: 10px; it pushed other elemets so that they not stick to each other */
-    /* display: inline-block; */
     position: relative;
    
 }
+
 .middle-container {
-background-color: antiquewhite;
+background-color: #FFF8E1;
+padding: 100px 0 100px 0;
 }
 .last-container {
-background-color: bisque;
+background-color: #66BFBF;
+padding: 50px 0 20px;
 }
 
 .pro {
     text-decoration: underline;
 }
-
+.intro{
+    width: 30%;
+    margin: auto;
+}
 /* paragrapgh */
 .para-first{
     font-weight: normal; /* 400 */
@@ -64,20 +74,44 @@ background-color: bisque;
 
 .top-cloud{
     position: relative;
-    top:80px;
+    top:150px;
     left:300px;
 }
 .bottom-cloud{
     position: relative;
     bottom: 350px;
-    right: 150px;
+    right: 200px;
 } 
 
 /* Anchor tags footer */
-.btn{
+.btn {
+    background: #11CDD4;
+    background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+    background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+    background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Monserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30E3CB;
+    background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+    background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+    text-decoration: none;
+  }
 
-    color: #11999E;
-}
+
 .footer-link {
     color: #11999E;
 }
@@ -99,30 +133,17 @@ background-color: bisque;
     border-radius: 50%;
     width: 25%;
     float: right;
-    margin: 0 auto 0 30px;
+    margin: 30px auto 0 30px;
 }
 
 .skill-row {
     width: 50%;
     margin: 100px auto 100px;
     text-align:left;
-    line-height: 2;
-}
-
-/* clear tag  */
-/* .skills-cpp-description {
-    clear: left;
-}
-.skills-html-description {
-    clear: right;
-} */
-
-.contact-me{
-    width: 100px;
-    border-radius: 10%;
-    background-color: aqua;
 }
 
 .copyright{
-    font-size: small;
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
