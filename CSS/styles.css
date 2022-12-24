@@ -116,3 +116,13 @@ background-color: bisque;
 .skills-html-description {
     clear: right;
 } */
+
+.contact-me{
+    width: 100px;
+    border-radius: 10%;
+    background-color: aqua;
+}
+
+.copyright{
+    font-size: small;
+}
