@@ -5,6 +5,7 @@ body{
     /* If the font is not availavble into the system by chance, then we use font embedding. For this we can use google fonts and link it in the HTML file  */
     font-family: 'Chivo Mono', monospace;
     /* font-size: 200%; */
+    margin: 0;
 }
 hr{
     margin: 0;
@@ -60,6 +61,7 @@ background-color: bisque;
     font-weight: normal; /* 400 */
 }
 
+
 .top-cloud{
     position: relative;
     top:80px;
@@ -85,8 +87,32 @@ background-color: bisque;
     width: 300px;;
     height:300px;
 }
-.skills-img{
+
+/* Try not to use float tag. It causes problem */
+.skills-img1{
     border-radius: 50%;
-    width: 300px;;
-    height:300px;
+    width: 25%;
+    float: left;
+    margin: 0 30px 0 auto;
 }
+.skills-img2{
+    border-radius: 50%;
+    width: 25%;
+    float: right;
+    margin: 0 auto 0 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px;
+    text-align:left;
+    line-height: 2;
+}
+
+/* clear tag  */
+/* .skills-cpp-description {
+    clear: left;
+}
+.skills-html-description {
+    clear: right;
+} */
